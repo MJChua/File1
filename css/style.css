@@ -1,0 +1,859 @@
+/* 整個版面都會用到的部分 */
+
+a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+a:hover {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+p {
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 2em;
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgba(19, 18, 18, 0.979);
+    margin-bottom: 0;
+}
+
+.card {
+    border: 0px;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: bolder;
+    font-size: 30px;
+    color: rgba(82, 79, 79, 0.678);
+}
+
+h4,
+h5,
+h6 {
+    font-size: 35px;
+    color: antiquewhite;
+}
+
+
+/* 版面都會用到的部分end */
+
+
+/* top-menu部分 */
+
+.top-content {
+    height: 80px;
+    width: auto;
+    background-color: antiquewhite;
+    position: relative;
+}
+
+
+/* 漢堡選單(device-width縮小時出現) */
+
+.hamlist {
+    display: none;
+}
+
+
+/* header左上角小圖 */
+
+.top-img {
+    position: absolute;
+    top: 0.5em;
+    left: 8em;
+    border-radius: 50%;
+    vertical-align: top;
+}
+
+.top-img:hover {
+    transition: all 0.6s ease;
+    box-shadow: 0px 0px 5px;
+    opacity: 0.7;
+}
+
+
+/* header中間文字 */
+
+.top-program {
+    font-weight: bold;
+    text-align: center;
+    padding: 0.85%;
+    letter-spacing: 1px;
+}
+
+.top-program img {
+    vertical-align: middle;
+}
+
+.top-program a {
+    color: rgba(82, 79, 79, 0.678);
+    margin: 1%;
+}
+
+.top-program a:hover {
+    color: brown;
+}
+
+
+/* 下拉式清單 */
+
+.form-list {
+    display: none;
+    text-align: center;
+    background: linear-gradient( to bottom, antiquewhite, rgba(250, 235, 215, 0.5));
+}
+
+.form-list ul {
+    text-align: center;
+    color: black;
+}
+
+.form-list a:hover {
+    transition: all 0.6s ease;
+    color: brown;
+}
+
+.form-list img:hover {
+    transition: all 0.8s ease;
+    box-shadow: 0 0 10px rgba(165, 42, 42, 0.7);
+}
+
+
+/* 左側清單 */
+
+.left-list {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    line-height: 2em;
+    padding: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.left-list span {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.left-list img {
+    position: relative;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.left-list p {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+
+/* 中間清單 */
+
+.middle-list {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    line-height: 2em;
+    padding: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.middle-list span {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.middle-list img {
+    position: relative;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.middle-list p {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+
+/* 右側清單 */
+
+.right-list {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    line-height: 2em;
+    padding: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.right-list span {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.right-list img {
+    position: relative;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.right-list p {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+
+/* 下拉式清單end */
+
+
+/* header右側 */
+
+.top-control {
+    display: block;
+    float: right;
+    position: absolute;
+    top: 0.5em;
+    right: 8em;
+    transition: all 0.5s ease;
+}
+
+.top-control:hover {
+    box-shadow: 0px 0px 5px black;
+}
+
+
+/* 漢堡選單部分 */
+
+.menu {
+    display: none;
+    background-color: black;
+}
+
+.menu a {
+    color: antiquewhite;
+}
+
+.menu a:hover {
+    color: brown;
+}
+
+
+/* header中間大圖 */
+
+.header-img {
+    height: 500px;
+    background-image: url(https://i.picsum.photos/id/1060/5598/3732.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+
+/* 4個小li區塊 */
+
+.text-line {
+    text-align: center;
+    font-size: 20px;
+}
+
+.text-line ul {
+    display: flex;
+}
+
+.text-line li {
+    display: table;
+    width: 25%;
+    padding: 1%;
+    margin: 0 1%;
+    letter-spacing: 0.5em;
+    position: relative;
+    transition: all 0.5s ease;
+    right: 0px;
+}
+
+.text-line li:hover {
+    background-color: black;
+    font-weight: bolder;
+    right: -15px;
+}
+
+.text-line a {
+    display: table-cell;
+    vertical-align: middle;
+    color: brown;
+}
+
+
+/* 第一個subject區塊 */
+
+.text-area {
+    text-align: center;
+    padding: 1%;
+    margin: 2%;
+}
+
+.text-left,
+.text-right {
+    display: inline-block;
+    padding: 1%;
+    color: black;
+    vertical-align: middle;
+}
+
+.text-left h1>a {
+    color: rgba(82, 79, 79, 0.678);
+    position: relative;
+    transition: all 0.3s ease;
+    bottom: 0px;
+}
+
+.text-left h1>a:hover {
+    color: brown;
+    bottom: -10px;
+}
+
+.text-right li {
+    padding: 1% 1em;
+    border-radius: 20px;
+}
+
+.text-right li:hover {
+    transition: all 0.5s ease;
+    background-color: rgba(82, 79, 79, 0.678);
+}
+
+.text-right p:hover {
+    transition: all 0.5s ease;
+    color: antiquewhite;
+}
+
+
+/* 中間2張圖區塊 */
+
+.middle-img {
+    display: flex;
+}
+
+.left-img,
+.right-img {
+    width: 50%;
+    box-shadow: 0px 0px 5px black;
+    vertical-align: middle;
+}
+
+.middle-img img {
+    display: block;
+    width: 100%;
+}
+
+
+/* 圖中文字部分 */
+
+.middle-part1 {
+    position: relative;
+}
+
+.middle-text1 {
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    padding: 1%;
+    background-color: antiquewhite;
+    opacity: 0.5;
+    border-radius: 20px;
+}
+
+.middle-text1 p {
+    color: black;
+}
+
+
+/* 車車定位 */
+
+.middle-btn {
+    position: absolute;
+    top: 70%;
+    left: 47%;
+    opacity: 0.8;
+    transition: all 0.5s ease-in-out;
+    margin-top: 0;
+}
+
+.middle-btn:hover {
+    margin-top: 2em;
+}
+
+
+/* 中間第2個subject區塊 */
+
+.middle-h2,
+.middle-text2 {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 1%;
+}
+
+.middle-part2 {
+    text-align: center;
+    margin: 5%;
+}
+
+.middle-h2 a {
+    color: rgba(82, 79, 79, 0.678);
+    position: relative;
+    transition: all 0.3s ease;
+    bottom: 0px;
+}
+
+.middle-h2 a:hover {
+    color: brown;
+    bottom: -10px;
+}
+
+.middle-text2 li {
+    padding: 1% 1em;
+    border-radius: 20px;
+}
+
+.middle-text2 li:hover {
+    background-color: rgba(82, 79, 79, 0.678);
+    color: antiquewhite;
+}
+
+
+/* 中間第三個部分 */
+
+.middle-part3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 15%;
+    border: 0px;
+}
+
+
+/* 卡片文字部分 */
+
+.card {
+    width: 25%;
+    margin: 1%;
+}
+
+.card-body h3 {
+    text-align: center;
+}
+
+.card-body p {
+    text-align: left;
+    font-size: 20px;
+}
+
+.card-body a:hover {
+    color: black;
+}
+
+.card-body {
+    background-color: burlywood;
+    background-size: cover;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0px 0px 2px black;
+    border: 0px;
+}
+
+
+/* 卡片圖片部分 */
+
+.card img {
+    width: 100%;
+    display: block;
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: 0px 0px 2px black;
+}
+
+
+/* 中間第四區塊 */
+
+.middle-part4 {
+    display: flex;
+    height: 250px;
+    margin: 5% 0;
+    background: linear-gradient(to right, black 50%, darkslategrey);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.911);
+    position: relative;
+}
+
+
+/* 圖區塊 */
+
+.middle-part4 img {
+    display: block;
+    width: 45%;
+}
+
+
+/* 字區塊 */
+
+.part4-text {
+    display: block;
+    width: 25%;
+    padding: 1.2% 0;
+    text-align: center;
+}
+
+.part4-text p {
+    color: antiquewhite;
+}
+
+
+/* 按鈕區塊 */
+
+.part4-text a {
+    padding: 1%;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+.part4-button {
+    position: absolute;
+    right: 20%;
+    top: 40%;
+}
+
+.part4-button img {
+    width: 100%;
+    padding: 5%;
+}
+
+.part4-button a {
+    display: flex;
+    align-items: flex-end;
+    background-color: antiquewhite;
+    border-radius: 50%;
+}
+
+.part4-button a:hover {
+    transition: all .6s ease;
+    transform: scale(.9);
+    background-color: aqua;
+}
+
+
+/* 熱點搜尋獨立區塊 */
+
+.hot-spot {
+    display: flex;
+    height: 15em;
+    width: calc(100% / 2);
+    margin: 5% auto;
+    background-color: black;
+    box-shadow: 0px 0px 10px black;
+}
+
+
+/* 熱點圖片部分 */
+
+.hotspot-image {
+    display: flex;
+    width: calc(100% / 1);
+    background-image: url(https://i.picsum.photos/id/1026/4621/3070.jpg), url(https://i.picsum.photos/id/1033/2048/1365.jpg);
+    background-size: 50%, 50%;
+    background-position: left, right;
+    background-repeat: no-repeat, no-repeat;
+    margin: 2%;
+}
+
+
+/* 熱點文字部分 */
+
+.hotspot-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 1%;
+}
+
+.hotspot-text p {
+    color: antiquewhite;
+}
+
+
+/* 熱點按鈕部分 */
+
+.hotspot-button {
+    margin: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    position: relative;
+    right: 8px;
+}
+
+.hotspot-button:hover {
+    transition: all 0.5s ease;
+    background-color: #fff;
+    opacity: 0.8;
+    right: 0px;
+}
+
+
+/* 聯絡資訊部分 */
+
+.service {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: calc(100% / 2);
+    margin: 3% auto;
+}
+
+
+/* 聯絡資訊文字區塊 */
+
+.service-text {
+    display: block;
+    text-align: center;
+}
+
+.service-text h6 {
+    color: black;
+}
+
+.service-text a {
+    color: rgba(82, 79, 79, 0.678);
+}
+
+.service-text a:hover {
+    transition: all 0.5s ease;
+    color: brown;
+}
+
+
+/* 聯絡資訊按鈕區塊 */
+
+.service-button {
+    display: flex;
+    margin: 0 auto;
+    padding: 1%;
+    box-shadow: 0 0 10px black;
+    background-color: antiquewhite;
+}
+
+.servicebutton-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+.servicebutton-text p {
+    margin-bottom: 0;
+}
+
+.service-button_click {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: all 0.5s ease;
+}
+
+.service-button_click img:hover {
+    transition: all 1s ease;
+    transform: scale(1.5);
+}
+
+
+/* Footer部分 */
+
+.footer {
+    margin: 2% 0;
+}
+
+.products_description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    max-width: 50%;
+}
+
+.products_description-list {
+    display: inline-flex;
+    margin: 1%;
+}
+
+.products_description span {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.products_description p {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.products_description a {
+    transition: all 0.4s ease;
+    color: rgba(82, 79, 79, 0.678);
+}
+
+.products_description a:hover {
+    color: brown;
+}
+
+
+/* Bottom部分 */
+
+.bottom {
+    display: block;
+    max-width: 50%;
+    padding: 1%;
+    margin: auto;
+}
+
+
+/* bottom上排字串 */
+
+.bottom-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-text p {
+    font-size: 30px;
+}
+
+.bottom a {
+    transition: all 1s ease;
+    color: rgba(82, 79, 79, 0.678);
+}
+
+.bottom a:hover {
+    color: brown;
+}
+
+
+/* bottom中間icon部分 */
+
+.icons-container {
+    display: inline-flex;
+    width: 100%;
+}
+
+.icons-container a {
+    margin: 1%;
+}
+
+
+/* 左半部icon */
+
+.blog-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 31%;
+}
+
+
+/* 右半部icon */
+
+.blog-right {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: right;
+    width: 68%;
+}
+
+.bottom img:hover {
+    transition: all 0.5s ease;
+    background-color: brown;
+    border-radius: 50%;
+}
+
+
+/* 商家資訊與法律聲明部分 */
+
+.siteinfoLegal {
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    margin: 5% auto;
+}
+
+
+/* 左邊 */
+
+.siteinfoLegal-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+
+
+/* 中間 */
+
+.siteinfoLegal-middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+}
+
+.siteinfoLegal-middle p {
+    margin: 2%;
+    padding: 2%;
+}
+
+
+/* 右邊 */
+
+.siteinfoLegal-right {
+    width: 45%;
+    position: relative;
+}
+
+.siteinfoLegal-right p {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 13px;
+}
