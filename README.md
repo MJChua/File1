@@ -7,6 +7,7 @@
 
 - HTML
 - CSS
+- JavaScript
 - Swiper ( https://swiperjs.com/ )
 - Free-icons ( https://icons8.com/icons )
 - picsum ( https://picsum.photos/images )
