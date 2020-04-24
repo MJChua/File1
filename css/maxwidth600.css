@@ -1,0 +1,260 @@
+/* 全域汙染 */
+
+@media (max-width: 600px) {
+  p {
+    font-size: 18px;
+    font-weight: normal;
+    text-align: left;
+  }
+  hr {
+    display: none;
+  }
+}
+
+/* 漢堡圖 */
+
+@media (max-width: 600px) {
+  .hamlist {
+    display: block;
+    position: absolute;
+    top: 0.5em;
+    right: 1em;
+  }
+  /* 指紋圖 */
+  .top-img {
+    position: absolute;
+    top: 0.5em;
+    left: 44%;
+    right: 56%;
+  }
+  /* 最上面的指紋及漢寶圖區塊 */
+  .top-program {
+    display: none;
+  }
+  /* 問號圖 */
+  .top-control {
+    display: none;
+  }
+  /* 漢堡下拉選單 */
+  .menu {
+    display: none;
+    width: 100%;
+    text-align: center;
+    padding: 2em;
+  }
+  .divider-menu {
+    display: block;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(
+      to right,
+      rgba(250, 235, 215, 0),
+      rgba(250, 235, 215, 0.75),
+      rgba(250, 235, 215, 0)
+    );
+  }
+  /* header大圖 */
+  .header-img {
+    height: 400px;
+    background-size: cover;
+    background-position: 70%;
+    background-color: black;
+  }
+  /* 四個小li區塊 */
+  .text-line li {
+    letter-spacing: 0;
+    padding: 2%;
+    margin: 0;
+    position: static;
+    right: 0;
+  }
+  .text-line li:hover {
+    right: 0;
+  }
+  .text-left {
+    text-indent: 40px;
+    display: flex;
+  }
+  /* 第一個subject區塊 */
+  /* 中間2張圖區塊 */
+  .middle-img {
+    display: flex;
+  }
+  .left-img,
+  .right-img {
+    display: flex;
+    height: 200px;
+    width: 100%;
+  }
+  /* 圖中文字部分 */
+  .middle-text1 {
+    position: static;
+    left: 0;
+  }
+  /* 車子定位 */
+  .middle-btn {
+    top: 65%;
+    left: 70%;
+  }
+  /* 第二個subject */
+  .middle-part2 {
+    text-align: left;
+    text-indent: 20px;
+  }
+  .middle-text2 {
+    text-indent: 0;
+  }
+  /* 輪播部分 */
+  /* .carousel {
+    margin-right: 5%;
+  } */
+  .w-75 {
+    width: 100% !important;
+  }
+  .carousel-control-prev-icon {
+    display: none;
+  }
+  .carousel-control-next-icon {
+    display: none;
+  }
+  /* 卡片部分 */
+  .middle-part3 {
+    display: block;
+    align-items: center;
+  }
+  .card {
+    width: 100%;
+    margin: 5% 0;
+  }
+  /* 時鐘圖部分 */
+  .middle-part4 {
+    display: block;
+    height: auto;
+  }
+  .middle-part4 img {
+    width: 100%;
+  }
+  .part4-text {
+    text-align: left;
+    width: 100%;
+    padding: 5%;
+    background: linear-gradient(to bottom, black 50%, darkslategrey);
+  }
+  .middle-part4 h4 {
+    text-indent: 20px;
+  }
+  .part4-button {
+    right: 5%;
+    top: 45%;
+  }
+  /* 熱點搜尋區塊 */
+  .hot-spot {
+    display: flex;
+    width: 100%;
+  }
+  .hot-spot h5 {
+    text-align: left;
+    text-indent: 20px;
+  }
+  /* 聯絡區塊 */
+  .service {
+    width: 100%;
+    padding: 5% 10%;
+    margin: 0;
+  }
+  .service-text p {
+    text-align: center;
+  }
+  .service-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5% 10%;
+  }
+  /* .footer區塊 */
+  .footer {
+    margin: 0;
+  }
+  .products_description {
+    display: flex;
+    height: 300px;
+    padding: 15px;
+    flex-wrap: wrap;
+    max-width: 100%;
+  }
+  .products_description-list {
+    display: flex;
+    flex: 0 0 30%;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+  }
+  .products_description-list p {
+    display: none;
+  }
+  .products_description-list span {
+    text-align: left;
+  }
+  /* 底部各社群平台 */
+  .bottom {
+    max-width: 100%;
+    padding: 0;
+  }
+  .bottom-text {
+    background-color: antiquewhite;
+  }
+  .icons-container {
+    display: block;
+    width: 100%;
+  }
+  .blog-left {
+    display: flex;
+    height: 150px;
+    width: 100%;
+    background-color: antiquewhite;
+  }
+  .blog-left a {
+    margin: 0 5%;
+  }
+  .blog-right {
+    display: flex;
+    height: 150px;
+    width: 100%;
+    justify-content: center;
+  }
+  .blog-right a {
+    margin: 0 5%;
+  }
+  .siteinfoLegal {
+    display: block;
+    margin: 0;
+  }
+  .siteinfoLegal-left {
+    width: 100%;
+  }
+  .siteinfoLegal-left a {
+    margin: 2% 6%;
+  }
+  .divider-bottom {
+    display: block;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.75),
+      rgba(0, 0, 0, 0)
+    );
+  }
+  .siteinfoLegal-middle {
+    width: 100%;
+  }
+  .siteinfoLegal-right {
+    width: 100%;
+  }
+  .siteinfoLegal-right p {
+    position: static;
+    text-align: center;
+    font-size: 15px;
+  }
+}
